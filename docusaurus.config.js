@@ -11,66 +11,26 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'Utili Documentation',
+      href: 'https://docs.utili.xyz/docs',
       logo: {
         alt: 'Utili',
         src: 'https://file.utili.xyz/UtiliSmall.png',
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          href: 'https://utili.xyz/',
+          label: 'utili.xyz',
+          position: 'right',
         },
         {
           href: 'https://utili.xyz/',
-          label: 'Utili',
+          label: 'github',
           position: 'right',
         },
       ],
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} Daniel Baynton. Built with Docusaurus.`,
     },
   },
@@ -80,7 +40,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
             'https://github.com/230Daniel/UtiliDocs/edit/main/',
         },
