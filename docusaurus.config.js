@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Utili Documentation',
   tagline: '',
-  url: 'https://docs.utili.xyz',
+  url: 'https://docs.utili.xyz/docs',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -11,7 +11,6 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'Utili Documentation',
-      href: 'https://docs.utili.xyz/docs',
       logo: {
         alt: 'Utili',
         src: 'https://file.utili.xyz/UtiliSmall.png',
