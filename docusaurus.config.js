@@ -12,18 +12,18 @@ module.exports = {
     navbar: {
       title: 'Utili Documentation',
       logo: {
-        alt: 'Utili',
+        alt: 'Utili Logo',
         src: 'https://file.utili.xyz/UtiliSmall.png',
       },
       items: [
         {
           href: 'https://utili.xyz/',
-          label: 'utili.xyz',
+          label: 'Utili',
           position: 'right',
         },
         {
-          href: 'https://utili.xyz/',
-          label: 'github',
+          href: 'https://github.com/230Daniel/UtiliDocs/',
+          label: 'GitHub',
           position: 'right',
         },
       ],
