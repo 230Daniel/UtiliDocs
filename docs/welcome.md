@@ -1,5 +1,5 @@
 ---
-id: Welcome
+id: welcome
 title: Utili Documentation
 sidebar_label: Welcome
 slug: /

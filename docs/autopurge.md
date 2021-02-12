@@ -1,5 +1,5 @@
 ---
-id: Autopurge
+id: autopurge
 title: Autopurge
 sidebar_label: Autopurge
 ---

@@ -3,12 +3,12 @@ module.exports = {
     {
         type: 'category',
         label: 'Getting Started',
-        items: ['Welcome'],
+        items: ['welcome'],
     },
       {
           type: 'category',
           label: 'Features',
-          items: ['Autopurge']
+          items: ['autopurge']
       }
   ],
 };
