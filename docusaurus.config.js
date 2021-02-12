@@ -1,9 +1,9 @@
 module.exports = {
   title: 'Utili Documentation',
   tagline: '',
-  url: 'https://docs.utili.xyz/docs',
+  url: 'https://docs.utili.xyz',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'utili', // Usually your GitHub org/user name.
@@ -32,6 +32,9 @@ module.exports = {
       style: 'dark',
       copyright: `Copyright © ${new Date().getFullYear()} Daniel Baynton. Built with Docusaurus.`,
     },
+    colorMode: {
+      defaultMode: 'dark'
+    }
   },
   presets: [
     [
